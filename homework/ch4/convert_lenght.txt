@@ -1,0 +1,48 @@
+Rewriting of the problem
+1.Ask user to input lenght in inches
+2.Create constants for feet, yards, inches
+3. Print a sentence that tells
+    -the number  of inches that were inputed
+    - the length in full yards
+    - the remainder length left over from yards in full feet
+    -the remainder length left over from feet in inches
+
+Division of problem
+1. Define constants
+2. ask for input
+3. find number of yards
+4. find number of feet
+5. find number of inches
+6. Make print statement that returns the length in inches, 
+    followed by the length in yards, feet, and inches
+
+Pseudocode
+1. Make constants for feet yards and inches
+2a. Make variable name
+2. Ask user to input length, cast to integer
+3a. Make variable name
+3. Find how many yard go into the number user entered
+4a.Make variable name
+4. Find how may feet are in the remainder of what is left after yards with (//)
+5a. Make variable name
+5.Find how many inches are left over with the mod operator (%)
+6a. Make variable name
+6. find the tense of the yard
+    - Use if statement
+        - if number of yards is one, print yard
+        - if not equal to one print yards instead
+7. Find tense of feet
+    - Use if statement
+        - if number of feet is one, print foot
+        - if not equal to one print feet instead
+8. Find tense of inches
+    - Use if statement
+        - if number of inches is one, print inch
+        - if not equal to one print inches instead
+9. Make a print statement
+    - Make print statement a function
+        - Start with quotations then add user input
+        - put inches beehind user input
+        - print number of yards followed by correct tense for yards
+        - print number of feet followed by correct tense for feet
+        - print number of inches followed by correct tense for inches
